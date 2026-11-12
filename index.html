@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>CBT BIMBEL POLRI</title>
+
+<link rel="icon" type="image/png" href="https://www.dropbox.com/scl/fi/9wud3i77raw9yjjizztmh/LOGO_MASTER_LEAGUE_FC26.png?rlkey=1tswb6umelsh1iwofn45gfq0x&st=gfznv0b1&dl=1">
+
+<style>
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #ffffff;
+  }
+
+  #app {
+    position: fixed;
+    inset: 0;
+    height: 100dvh; /* stabil walau address bar HP muncul/hilang, beda dgn 100vh */
+    width: 100vw;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    background: #ffffff;
+  }
+
+  iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: #ffffff;
+  }
+</style>
+</head>
+<body>
+
+<div id="app">
+  <iframe
+    id="mlFrame"
+    src="https://script.google.com/macros/s/AKfycbw84B_klBqIy5ALlPngQ7HELhWkyjpmuwr9lWSg6PlocFqaaT5xMkGPdshXJCV26t3Hvg/exec"
+    title="CBT BIMBEL POLRI"
+    allow="fullscreen"
+    allowfullscreen
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+</body>
+</html>
